@@ -14,7 +14,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y nmap
 
       # 2. Execution: Run the Scan (Targeting Google DNS as a safe test)
-      - name: Conduct Port Audit (Target: 8.8.8.8)
+      - name: "Conduct Port Audit (Target: 8.8.8.8)"
         run: |
           # Create a clean filename with today's date
           FILENAME="audit_report_$(date +'%Y-%m-%d').txt"
