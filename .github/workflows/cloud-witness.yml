@@ -53,4 +53,4 @@ jobs:
           curl -X PUT -T $FILENAME -H "x-ms-blob-type: BlockBlob" "$UPLOAD_URL"
 
       - name: Audit Log
-        run: echo "SUCCESS: Evidence $FILENAME has been vaulted in Azure."
+        run: echo "SUCCESS:Evidence $FILENAME has been vaulted in Azure."
