@@ -3,7 +3,7 @@ name: "Cloud Witness: External Audit"
 on:
   workflow_dispatch:      # Allows you to click "Run Now"
   schedule:
-    - cron: '0 8 * * *'   # Runs daily at 8am UTC
+    - cron: '0 8 * * *'   # Runs daily at 800 UTC
 
 jobs:
   independent-audit:
